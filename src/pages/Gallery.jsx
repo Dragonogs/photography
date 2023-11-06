@@ -8,32 +8,32 @@ export default function Gallery() {
 
     const [toggleMenu, setToggleMenu] = useState(false);
 
-  // const images = require.context('../../public/photos/images', true);
+  // const images = require.context('../.https://raw.githubusercontent.com/Dragonogs/photography/d312ff90b227a847c800798cfe83fec43bed7f5f/public/photos/images', true);
   // const imageFilenames = images.keys();
 
   // const photos = imageFilenames.map((filename, index) => {
   //         <div
   //           key={index}
   //           onClick={() => {
-  //             setImgUrl(`./public/photos/${filename}.jpg`);
+  //             setImgUrl(`https://raw.githubusercontent.com/Dragonogs/photography/d312ff90b227a847c800798cfe83fec43bed7f5f/public/photos/${filename}.jpg`);
   //             setIsModalOpen(true);
   //           }}
   //           className="gallery-item"
   //         >
-  //           <img className="gallery-image" src={`./public/photos/${filename}.jpg`}></img>
+  //           <img className="gallery-image" src={`https://raw.githubusercontent.com/Dragonogs/photography/d312ff90b227a847c800798cfe83fec43bed7f5f/public/photos/${filename}.jpg`}></img>
   //         </div>
   // })
 
   // const imagePaths = [
-  //   "./public/photos/DSC00861.jpg",
-  //   "./public/photos/DSC00894.jpg",
-  //   "./public/photos/DSC01231.jpg",
-  //   "./public/photos/DSC01017.jpg",
-  //   "./public/photos/DSC00230.jpg",
-  //   "./public/photos/DSC00947.jpg",
-  //   "./public/photos/DSC00872.jpg",
-  //   "./public/photos/DSC00941.jpg",
-  //   "./public/photos/DSC01102.jpg",
+  //   "https://raw.githubusercontent.com/Dragonogs/photography/d312ff90b227a847c800798cfe83fec43bed7f5f/public/photos/DSC00861.jpg",
+  //   "https://raw.githubusercontent.com/Dragonogs/photography/d312ff90b227a847c800798cfe83fec43bed7f5f/public/photos/DSC00894.jpg",
+  //   "https://raw.githubusercontent.com/Dragonogs/photography/d312ff90b227a847c800798cfe83fec43bed7f5f/public/photos/DSC01231.jpg",
+  //   "https://raw.githubusercontent.com/Dragonogs/photography/d312ff90b227a847c800798cfe83fec43bed7f5f/public/photos/DSC01017.jpg",
+  //   "https://raw.githubusercontent.com/Dragonogs/photography/d312ff90b227a847c800798cfe83fec43bed7f5f/public/photos/DSC00230.jpg",
+  //   "https://raw.githubusercontent.com/Dragonogs/photography/d312ff90b227a847c800798cfe83fec43bed7f5f/public/photos/DSC00947.jpg",
+  //   "https://raw.githubusercontent.com/Dragonogs/photography/d312ff90b227a847c800798cfe83fec43bed7f5f/public/photos/DSC00872.jpg",
+  //   "https://raw.githubusercontent.com/Dragonogs/photography/d312ff90b227a847c800798cfe83fec43bed7f5f/public/photos/DSC00941.jpg",
+  //   "https://raw.githubusercontent.com/Dragonogs/photography/d312ff90b227a847c800798cfe83fec43bed7f5f/public/photos/DSC01102.jpg",
   //  ];
 
   //  console.log(imagePaths)
@@ -104,93 +104,93 @@ export default function Gallery() {
           {/* {photos} */}
           <div
             onClick={() => {
-              setImgUrl("./public/photos/DSC01108.jpg");
+              setImgUrl("https://raw.githubusercontent.com/Dragonogs/photography/d312ff90b227a847c800798cfe83fec43bed7f5f/public/photos/DSC01108.jpg");
               setIsModalOpen(true);
             }}
             className="gallery-item"
           >
-            <img className="gallery-image" src="./public/photos/DSC01108.jpg"></img>
+            <img className="gallery-image" src="https://raw.githubusercontent.com/Dragonogs/photography/d312ff90b227a847c800798cfe83fec43bed7f5f/public/photos/DSC01108.jpg"></img>
           </div>
           <div
             onClick={() => {
-              setImgUrl("./public/photos/DSC00861.jpg");
+              setImgUrl("https://raw.githubusercontent.com/Dragonogs/photography/d312ff90b227a847c800798cfe83fec43bed7f5f/public/photos/DSC00861.jpg");
               setIsModalOpen(true);
             }}
             className="gallery-item-large"
           >
-            <img className={"gallery-image"} src="./public/photos/DSC00861.jpg"></img>
+            <img className={"gallery-image"} src="https://raw.githubusercontent.com/Dragonogs/photography/d312ff90b227a847c800798cfe83fec43bed7f5f/public/photos/DSC00861.jpg"></img>
           </div>
           <div
             onClick={() => {
-              setImgUrl("./public/photos/DSC00894.jpg");
+              setImgUrl("https://raw.githubusercontent.com/Dragonogs/photography/d312ff90b227a847c800798cfe83fec43bed7f5f/public/photos/DSC00894.jpg");
               setIsModalOpen(true);
             }}
             className="gallery-item"
           >
-            <img className="gallery-image" src="./public/photos/DSC00894.jpg"></img>
+            <img className="gallery-image" src="https://raw.githubusercontent.com/Dragonogs/photography/d312ff90b227a847c800798cfe83fec43bed7f5f/public/photos/DSC00894.jpg"></img>
           </div>
           <div
             onClick={() => {
-              setImgUrl("./public/photos/DSC01231.jpg");
+              setImgUrl("https://raw.githubusercontent.com/Dragonogs/photography/d312ff90b227a847c800798cfe83fec43bed7f5f/public/photos/DSC01231.jpg");
               setIsModalOpen(true);
             }}
             className="gallery-item"
           >
-            <img className="gallery-image" src="./public/photos/DSC01231.jpg"></img>
+            <img className="gallery-image" src="https://raw.githubusercontent.com/Dragonogs/photography/d312ff90b227a847c800798cfe83fec43bed7f5f/public/photos/DSC01231.jpg"></img>
           </div>
           <div
             onClick={() => {
-              setImgUrl("./public/photos/DSC01017.jpg");
+              setImgUrl("https://raw.githubusercontent.com/Dragonogs/photography/d312ff90b227a847c800798cfe83fec43bed7f5f/public/photos/DSC01017.jpg");
               setIsModalOpen(true);
             }}
             className="gallery-item"
           >
-            <img className="gallery-image" src="./public/photos/DSC01017.jpg"></img>
+            <img className="gallery-image" src="https://raw.githubusercontent.com/Dragonogs/photography/d312ff90b227a847c800798cfe83fec43bed7f5f/public/photos/DSC01017.jpg"></img>
           </div>
           <div
             onClick={() => {
-              setImgUrl("./public/photos/DSC00230.jpg");
+              setImgUrl("https://raw.githubusercontent.com/Dragonogs/photography/d312ff90b227a847c800798cfe83fec43bed7f5f/public/photos/DSC00230.jpg");
               setIsModalOpen(true);
             }}
             className="gallery-item-large"
           >
-            <img className="gallery-image" src="./public/photos/DSC00230.jpg"></img>
+            <img className="gallery-image" src="https://raw.githubusercontent.com/Dragonogs/photography/d312ff90b227a847c800798cfe83fec43bed7f5f/public/photos/DSC00230.jpg"></img>
           </div>
           <div
             onClick={() => {
-              setImgUrl("./public/photos/DSC00947.jpg");
+              setImgUrl("https://raw.githubusercontent.com/Dragonogs/photography/d312ff90b227a847c800798cfe83fec43bed7f5f/public/photos/DSC00947.jpg");
               setIsModalOpen(true);
             }}
             className="gallery-item"
           >
-            <img className="gallery-image" src="./public/photos/DSC00947.jpg"></img>
+            <img className="gallery-image" src="https://raw.githubusercontent.com/Dragonogs/photography/d312ff90b227a847c800798cfe83fec43bed7f5f/public/photos/DSC00947.jpg"></img>
           </div>
           <div
             onClick={() => {
-              setImgUrl("./public/photos/DSC00872.jpg");
+              setImgUrl("https://raw.githubusercontent.com/Dragonogs/photography/d312ff90b227a847c800798cfe83fec43bed7f5f/public/photos/DSC00872.jpg");
               setIsModalOpen(true);
             }}
             className="gallery-item"
           >
-            <img className="gallery-image" src="./public/photos/DSC00872.jpg"></img>
+            <img className="gallery-image" src="https://raw.githubusercontent.com/Dragonogs/photography/d312ff90b227a847c800798cfe83fec43bed7f5f/public/photos/DSC00872.jpg"></img>
           </div>
           <div
             onClick={() => {
-              setImgUrl("./public/photos/DSC00941.jpg");
+              setImgUrl("https://raw.githubusercontent.com/Dragonogs/photography/d312ff90b227a847c800798cfe83fec43bed7f5f/public/photos/DSC00941.jpg");
               setIsModalOpen(true);
             }}
             className="gallery-item"
           >
-            <img className="gallery-image" src="./public/photos/DSC00941.jpg"></img>
+            <img className="gallery-image" src="https://raw.githubusercontent.com/Dragonogs/photography/d312ff90b227a847c800798cfe83fec43bed7f5f/public/photos/DSC00941.jpg"></img>
           </div>
           <div
             onClick={() => {
-              setImgUrl("./public/photos/DSC01102.jpg");
+              setImgUrl("https://raw.githubusercontent.com/Dragonogs/photography/d312ff90b227a847c800798cfe83fec43bed7f5f/public/photos/DSC01102.jpg");
               setIsModalOpen(true);
             }}
             className="gallery-item"
           >
-            <img className="gallery-image" src="./public/photos/DSC01102.jpg"></img>
+            <img className="gallery-image" src="https://raw.githubusercontent.com/Dragonogs/photography/d312ff90b227a847c800798cfe83fec43bed7f5f/public/photos/DSC01102.jpg"></img>
           </div>
           
         </div>
