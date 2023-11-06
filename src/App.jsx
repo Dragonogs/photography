@@ -10,9 +10,9 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Gallery/>} />
-        <Route path="/about" element={<About/>} />
-        <Route path="/contact" element={<Contact/>} />
+        <Route path="https://dragonogs.github.io/photography/" element={<Gallery/>} />
+        <Route path="https://dragonogs.github.io/photography/about" element={<About/>} />
+        <Route path="https://dragonogs.github.io/photography/contact" element={<Contact/>} />
         <Route path="" element={<NotFound/>} />
       </Routes>
     </BrowserRouter>
