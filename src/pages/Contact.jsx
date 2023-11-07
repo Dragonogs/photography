@@ -9,7 +9,7 @@ export default function Contact() {
     <>
     <div className="header">
   <nav className="top-nav">
-    <a href="/" className="nav-brand">
+    <a href="https://dragonogs.github.io/photography/" className="nav-brand">
       <span>Oliver </span>
       <span>Shipley.</span>
     </a>
@@ -19,17 +19,17 @@ export default function Contact() {
   </nav>
   <ul className="dropdown-menu">
     <li>
-      <a href="/" className="nav-link">
+      <a href="https://dragonogs.github.io/photography/" className="nav-link">
         Gallery
       </a>
     </li>
     <li>
-      <a href="/about" className="nav-link">
+      <a href="https://dragonogs.github.io/photography/about" className="nav-link">
         About
       </a>
     </li>
     <li>
-      <a href="/contact" className="nav-link-active">
+      <a href="https://dragonogs.github.io/photography/contact" className="nav-link-active">
         Contact
       </a>
     </li>
@@ -39,17 +39,17 @@ export default function Contact() {
   <nav className="main-nav">
     <ul className="nav-menu">
       <li>
-        <a href="/" className="nav-link">
+        <a href="https://dragonogs.github.io/photography/" className="nav-link">
           Gallery
         </a>
       </li>
       <li>
-        <a href="/about" className="nav-link">
+        <a href="https://dragonogs.github.io/photography/about" className="nav-link">
           About
         </a>
       </li>
       <li>
-        <a href="/contact" className="nav-link-active">
+        <a href="https://dragonogs.github.io/photography/contact" className="nav-link-active">
           Contact
         </a>
       </li>

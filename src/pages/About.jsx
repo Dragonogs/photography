@@ -9,7 +9,7 @@ export default function About() {
     <>
           <div className="header">
         <nav className="top-nav">
-          <a href="/" className="nav-brand">
+          <a href="https://dragonogs.github.io/photography" className="nav-brand">
             <span>Oliver </span>
             <span>Shipley.</span>
           </a>
@@ -19,37 +19,38 @@ export default function About() {
         </nav>
         <ul className="dropdown-menu">
           <li>
-            <a href="/" className="nav-link">
+            <a href="https://dragonogs.github.io/photography/" className="nav-link">
               Gallery
             </a>
           </li>
           <li>
-            <a href="/about" className="nav-link-active">
+            <a href="https://dragonogs.github.io/photography/about" className="nav-link-active">
               About
             </a>
           </li>
           <li>
-            <a href="/contact" className="nav-link">
+            <a href="https://dragonogs.github.io/photography/contact" className="nav-link">
               Contact
             </a>
           </li>
         </ul>
       </div>
       <main className="main-content">
-        <nav className="main-nav">
+        
+      <nav className="main-nav">
           <ul className="nav-menu">
             <li>
-              <a href="/" className="nav-link">
+              <a href="https://dragonogs.github.io/photography/" className="nav-link">
                 Gallery
               </a>
             </li>
             <li>
-              <a href="/about" className="nav-link-active">
+              <a href="https://dragonogs.github.io/photography/about" className="nav-link-active">
                 About
               </a>
             </li>
             <li>
-              <a href="/contact" className="nav-link">
+              <a href="https://dragonogs.github.io/photography/contact" className="nav-link">
                 Contact
               </a>
             </li>
