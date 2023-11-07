@@ -8,15 +8,14 @@ import "./App.css";
 function App() {
 
   return (
-    <Gallery></Gallery>
-    // <BrowserRouter>
-    //   <Routes>
-    //     <Route path="https://dragonogs.github.io/photography/" element={<Gallery/>} />
-    //     <Route path="https://dragonogs.github.io/photography/about" element={<About/>} />
-    //     <Route path="https://dragonogs.github.io/photography/contact" element={<Contact/>} />
-    //     <Route path="" element={<NotFound/>} />
-    //   </Routes>
-    // </BrowserRouter>
+    // <Gallery></Gallery>
+    <BrowserRouter>
+      <Routes>
+        <Route path="photography/" element={<Gallery/>} />
+        <Route path="photography/about" element={<About/>} />
+        <Route path="photography/contact" element={<Contact/>} />
+      </Routes>
+    </BrowserRouter>
   )
 
 }

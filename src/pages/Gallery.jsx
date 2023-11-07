@@ -62,7 +62,7 @@ export default function Gallery() {
             <i className="fa-solid fa-bars"></i>
           </button>
         </nav>
-        <ul className="dropdown-menu" style={{display: toggleMenu ? "block" : "none"}}>
+        <ul className="dropdown-menu" style={{display: toggleMenu && "none"}}>
           <li>
             <a href="https://dragonogs.github.io/photography/" className="nav-link-active">
               Gallery
