@@ -6,48 +6,7 @@ export default function Gallery() {
     const [isModalOpen, setIsModalOpen] = useState(false);
     const [imgUrl, setImgUrl] = useState(null);
 
-    const [toggleMenu, setToggleMenu] = useState(false);
-
-  // const images = require.context('../.https://raw.githubusercontent.com/Dragonogs/photography/d312ff90b227a847c800798cfe83fec43bed7f5f/public/photos/images', true);
-  // const imageFilenames = images.keys();
-
-  // const photos = imageFilenames.map((filename, index) => {
-  //         <div
-  //           key={index}
-  //           onClick={() => {
-  //             setImgUrl(`https://raw.githubusercontent.com/Dragonogs/photography/d312ff90b227a847c800798cfe83fec43bed7f5f/public/photos/${filename}.jpg`);
-  //             setIsModalOpen(true);
-  //           }}
-  //           className="gallery-item"
-  //         >
-  //           <img className="gallery-image" src={`https://raw.githubusercontent.com/Dragonogs/photography/d312ff90b227a847c800798cfe83fec43bed7f5f/public/photos/${filename}.jpg`}></img>
-  //         </div>
-  // })
-
-  // const imagePaths = [
-  //   "https://raw.githubusercontent.com/Dragonogs/photography/d312ff90b227a847c800798cfe83fec43bed7f5f/public/photos/DSC00861.jpg",
-  //   "https://raw.githubusercontent.com/Dragonogs/photography/d312ff90b227a847c800798cfe83fec43bed7f5f/public/photos/DSC00894.jpg",
-  //   "https://raw.githubusercontent.com/Dragonogs/photography/d312ff90b227a847c800798cfe83fec43bed7f5f/public/photos/DSC01231.jpg",
-  //   "https://raw.githubusercontent.com/Dragonogs/photography/d312ff90b227a847c800798cfe83fec43bed7f5f/public/photos/DSC01017.jpg",
-  //   "https://raw.githubusercontent.com/Dragonogs/photography/d312ff90b227a847c800798cfe83fec43bed7f5f/public/photos/DSC00230.jpg",
-  //   "https://raw.githubusercontent.com/Dragonogs/photography/d312ff90b227a847c800798cfe83fec43bed7f5f/public/photos/DSC00947.jpg",
-  //   "https://raw.githubusercontent.com/Dragonogs/photography/d312ff90b227a847c800798cfe83fec43bed7f5f/public/photos/DSC00872.jpg",
-  //   "https://raw.githubusercontent.com/Dragonogs/photography/d312ff90b227a847c800798cfe83fec43bed7f5f/public/photos/DSC00941.jpg",
-  //   "https://raw.githubusercontent.com/Dragonogs/photography/d312ff90b227a847c800798cfe83fec43bed7f5f/public/photos/DSC01102.jpg",
-  //  ];
-
-  //  console.log(imagePaths)
-
-  //  const photos = imagePaths.map((imgPath, index) => {
-  //   return <div key={index} onClick={() => {
-  //             setImgUrl(imgPath);
-  //             setIsModalOpen(true);
-  //           }}
-  //           className="gallery-item"
-  //         >
-  //           <img className="gallery-image" src={imgPath}></img>
-  //         </div>
-  //  })
+    const [toggleMenu, setToggleMenu] = useState(true);
 
   return (
     <>
@@ -101,7 +60,6 @@ export default function Gallery() {
           </ul>
         </nav>
         <div className="gallery-grid">
-          {/* {photos} */}
           <div
             onClick={() => {
               setImgUrl("https://raw.githubusercontent.com/Dragonogs/photography/d312ff90b227a847c800798cfe83fec43bed7f5f/public/photos/DSC01108.jpg");
