@@ -168,7 +168,7 @@ textarea:not([rows]) {
 .gallery-grid{
   display: grid;
   gap: 0.5em;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   /* max-width: 1000px; */
 }
 
@@ -195,7 +195,7 @@ textarea:not([rows]) {
 
 @media only screen and (min-width: 500px) {
   .gallery-grid > div:hover {
-    transform: scale(1.02);
+    transform: scale(1.01);
     cursor: pointer;
   }
  }
@@ -211,7 +211,7 @@ textarea:not([rows]) {
     display: flex;
     height: 90dvh;
     flex-grow: 1;
-    min-width: 33%;
+    min-width: 25%;
     align-items: center;
     position: -webkit-sticky;
     position: sticky;
@@ -235,7 +235,7 @@ textarea:not([rows]) {
   }
 
   .gallery-grid > div:hover {
-    transform: scale(1.02);
+    transform: scale(1.015);
     cursor: pointer;
   }
 

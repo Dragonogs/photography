@@ -98,12 +98,103 @@ export default function Gallery() {
           </div>
           <div
             onClick={() => {
+              setImgUrl("photos/DSC00808.jpg");
+              setIsModalOpen(true);
+            }}
+            className="gallery-item"
+          >
+            <img className="gallery-image" src="photos/DSC00808.jpg"></img>
+          </div>
+          <div
+            onClick={() => {
+              setImgUrl("photos/DSC01732.jpg");
+              setIsModalOpen(true);
+            }}
+            className="gallery-item-large"
+          >
+            <img className="gallery-image" src="photos/DSC01732.jpg"></img>
+          </div>
+          <div
+            onClick={() => {
+              setImgUrl("photos/DSC02628.jpg");
+              setIsModalOpen(true);
+            }}
+            className="gallery-item"
+          >
+            <img className="gallery-image" src="photos/DSC02628.jpg"></img>
+          </div>
+          <div
+            onClick={() => {
+              setImgUrl("photos/DSC02483.jpg");
+              setIsModalOpen(true);
+            }}
+            className="gallery-item"
+          >
+            <img className="gallery-image" src="photos/DSC02483.jpg"></img>
+          </div>
+          <div
+            onClick={() => {
+              setImgUrl("photos/DSC00592-Enhanced-NR.jpg");
+              setIsModalOpen(true);
+            }}
+            className="gallery-item"
+          >
+            <img className="gallery-image" src="photos/DSC00592-Enhanced-NR.jpg"></img>
+          </div>
+          <div
+            onClick={() => {
+              setImgUrl("photos/DSC00936.jpg");
+              setIsModalOpen(true);
+            }}
+            className="gallery-item"
+          >
+            <img className="gallery-image" src="photos/DSC00936.jpg"></img>
+          </div>
+          
+          <div
+            onClick={() => {
               setImgUrl("photos/DSC01017.jpg");
               setIsModalOpen(true);
             }}
             className="gallery-item"
           >
             <img className="gallery-image" src="photos/DSC01017.jpg"></img>
+          </div>
+          <div
+            onClick={() => {
+              setImgUrl("photos/DSC02321.jpg");
+              setIsModalOpen(true);
+            }}
+            className="gallery-item-large"
+          >
+            <img className="gallery-image" src="photos/DSC02321.jpg"></img>
+          </div>
+          <div
+            onClick={() => {
+              setImgUrl("photos/DSC02601-Enhanced-NR-2.jpg");
+              setIsModalOpen(true);
+            }}
+            className="gallery-item"
+          >
+            <img className="gallery-image" src="photos/DSC02601-Enhanced-NR-2.jpg"></img>
+          </div>
+          <div
+            onClick={() => {
+              setImgUrl("photos/DSC01005.jpg");
+              setIsModalOpen(true);
+            }}
+            className="gallery-item"
+          >
+            <img className="gallery-image" src="photos/DSC01005.jpg"></img>
+          </div>
+          <div
+            onClick={() => {
+              setImgUrl("photos/DSC00994.jpg");
+              setIsModalOpen(true);
+            }}
+            className="gallery-item"
+          >
+            <img className="gallery-image" src="photos/DSC00994.jpg"></img>
           </div>
           <div
             onClick={() => {
@@ -114,14 +205,15 @@ export default function Gallery() {
           >
             <img className="gallery-image" src="photos/DSC00230.jpg"></img>
           </div>
+          
           <div
             onClick={() => {
-              setImgUrl("photos/DSC00947.jpg");
+              setImgUrl("photos/DSC01102.jpg");
               setIsModalOpen(true);
             }}
             className="gallery-item"
           >
-            <img className="gallery-image" src="photos/DSC00947.jpg"></img>
+            <img className="gallery-image" src="photos/DSC01102.jpg"></img>
           </div>
           <div
             onClick={() => {
@@ -143,13 +235,14 @@ export default function Gallery() {
           </div>
           <div
             onClick={() => {
-              setImgUrl("photos/DSC01102.jpg");
+              setImgUrl("photos/DSC00947.jpg");
               setIsModalOpen(true);
             }}
             className="gallery-item"
           >
-            <img className="gallery-image" src="photos/DSC01102.jpg"></img>
+            <img className="gallery-image" src="photos/DSC00947.jpg"></img>
           </div>
+          
           
         </div>
       </main>
