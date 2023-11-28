@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState } from "react";
 import Modal from "../components/Modal";
+import GalleryItem from '../components/GalleryItem';
 
 export default function Gallery() {
     const [isModalOpen, setIsModalOpen] = useState(false);
@@ -60,188 +61,26 @@ export default function Gallery() {
           </ul>
         </nav>
         <div className="gallery-grid">
-          <div
-            onClick={() => {
-              setImgUrl("photos/DSC01108.jpg");
-              setIsModalOpen(true);
-            }}
-            className="gallery-item"
-          >
-            <img className="gallery-image" src="photos/DSC01108.jpg"></img>
-          </div>
-          <div
-            onClick={() => {
-              setImgUrl("photos/DSC00861.jpg");
-              setIsModalOpen(true);
-            }}
-            className="gallery-item-large"
-          >
-            <img className={"gallery-image"} src="photos/DSC00861.jpg"></img>
-          </div>
-          <div
-            onClick={() => {
-              setImgUrl("photos/DSC00894.jpg");
-              setIsModalOpen(true);
-            }}
-            className="gallery-item"
-          >
-            <img className="gallery-image" src="photos/DSC00894.jpg"></img>
-          </div>
-          <div
-            onClick={() => {
-              setImgUrl("photos/DSC01231.jpg");
-              setIsModalOpen(true);
-            }}
-            className="gallery-item"
-          >
-            <img className="gallery-image" src="photos/DSC01231.jpg"></img>
-          </div>
-          <div
-            onClick={() => {
-              setImgUrl("photos/DSC00808.jpg");
-              setIsModalOpen(true);
-            }}
-            className="gallery-item"
-          >
-            <img className="gallery-image" src="photos/DSC00808.jpg"></img>
-          </div>
-          <div
-            onClick={() => {
-              setImgUrl("photos/DSC01732.jpg");
-              setIsModalOpen(true);
-            }}
-            className="gallery-item-large"
-          >
-            <img className="gallery-image" src="photos/DSC01732.jpg"></img>
-          </div>
-          <div
-            onClick={() => {
-              setImgUrl("photos/DSC02628.jpg");
-              setIsModalOpen(true);
-            }}
-            className="gallery-item"
-          >
-            <img className="gallery-image" src="photos/DSC02628.jpg"></img>
-          </div>
-          <div
-            onClick={() => {
-              setImgUrl("photos/DSC02483.jpg");
-              setIsModalOpen(true);
-            }}
-            className="gallery-item"
-          >
-            <img className="gallery-image" src="photos/DSC02483.jpg"></img>
-          </div>
-          <div
-            onClick={() => {
-              setImgUrl("photos/DSC00592-Enhanced-NR.jpg");
-              setIsModalOpen(true);
-            }}
-            className="gallery-item"
-          >
-            <img className="gallery-image" src="photos/DSC00592-Enhanced-NR.jpg"></img>
-          </div>
-          <div
-            onClick={() => {
-              setImgUrl("photos/DSC00936.jpg");
-              setIsModalOpen(true);
-            }}
-            className="gallery-item"
-          >
-            <img className="gallery-image" src="photos/DSC00936.jpg"></img>
-          </div>
-          
-          <div
-            onClick={() => {
-              setImgUrl("photos/DSC01017.jpg");
-              setIsModalOpen(true);
-            }}
-            className="gallery-item"
-          >
-            <img className="gallery-image" src="photos/DSC01017.jpg"></img>
-          </div>
-          <div
-            onClick={() => {
-              setImgUrl("photos/DSC02321.jpg");
-              setIsModalOpen(true);
-            }}
-            className="gallery-item-large"
-          >
-            <img className="gallery-image" src="photos/DSC02321.jpg"></img>
-          </div>
-          <div
-            onClick={() => {
-              setImgUrl("photos/DSC02601-Enhanced-NR-2.jpg");
-              setIsModalOpen(true);
-            }}
-            className="gallery-item"
-          >
-            <img className="gallery-image" src="photos/DSC02601-Enhanced-NR-2.jpg"></img>
-          </div>
-          <div
-            onClick={() => {
-              setImgUrl("photos/DSC01005.jpg");
-              setIsModalOpen(true);
-            }}
-            className="gallery-item"
-          >
-            <img className="gallery-image" src="photos/DSC01005.jpg"></img>
-          </div>
-          <div
-            onClick={() => {
-              setImgUrl("photos/DSC00994.jpg");
-              setIsModalOpen(true);
-            }}
-            className="gallery-item"
-          >
-            <img className="gallery-image" src="photos/DSC00994.jpg"></img>
-          </div>
-          <div
-            onClick={() => {
-              setImgUrl("photos/DSC00230.jpg");
-              setIsModalOpen(true);
-            }}
-            className="gallery-item-large"
-          >
-            <img className="gallery-image" src="photos/DSC00230.jpg"></img>
-          </div>
-          
-          <div
-            onClick={() => {
-              setImgUrl("photos/DSC01102.jpg");
-              setIsModalOpen(true);
-            }}
-            className="gallery-item"
-          >
-            <img className="gallery-image" src="photos/DSC01102.jpg"></img>
-          </div>
-          <div
-            onClick={() => {
-              setImgUrl("photos/DSC00872.jpg");
-              setIsModalOpen(true);
-            }}
-            className="gallery-item"
-          >
-            <img className="gallery-image" src="photos/DSC00872.jpg"></img>
-          </div>
-          <div
-            onClick={() => {
-              setImgUrl("photos/DSC00941.jpg");
-              setIsModalOpen(true);
-            }}
-            className="gallery-item"
-          >
-            <img className="gallery-image" src="photos/DSC00941.jpg"></img>
-          </div>
-          <div
-            onClick={() => {
-              setImgUrl("photos/DSC00947.jpg");
-              setIsModalOpen(true);
-            }}
-            className="gallery-item"
-          >
-            <img className="gallery-image" src="photos/DSC00947.jpg"></img>
-          </div>
+          <GalleryItem url="photos/DSC01108.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
+          <GalleryItem url="photos/DSC00861.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
+          <GalleryItem url="photos/DSC00894.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
+          <GalleryItem url="photos/DSC01231.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
+          <GalleryItem url="photos/DSC00808.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
+          <GalleryItem url="photos/DSC01732.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
+          <GalleryItem url="photos/DSC02628.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
+          <GalleryItem url="photos/DSC02483.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
+          <GalleryItem url="photos/DSC00592-Enhanced-NR.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
+          <GalleryItem url="photos/DSC00936.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
+          <GalleryItem url="photos/DSC01017.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
+          <GalleryItem url="photos/DSC02321.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
+          <GalleryItem url="photos/DSC02601-Enhanced-NR-2.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
+          <GalleryItem url="photos/DSC01005.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
+          <GalleryItem url="photos/DSC00994.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
+          <GalleryItem url="photos/DSC00230.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
+          <GalleryItem url="photos/DSC01102.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
+          <GalleryItem url="photos/DSC00872.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
+          <GalleryItem url="photos/DSC00941.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
+          <GalleryItem url="photos/DSC00947.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
           
           
         </div>
