@@ -70,6 +70,10 @@ export default function Gallery() {
           <GalleryItem url="photos/DSC02628.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
           <GalleryItem url="photos/DSC02483.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
           <GalleryItem url="photos/DSC00592-Enhanced-NR.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
+          <GalleryItem url="photos/DSC02544.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
+          <GalleryItem url="photos/DSC02643.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
+          <GalleryItem url="photos/DSC02523.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
+          <GalleryItem url="photos/DSC01134.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
           <GalleryItem url="photos/DSC00936.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
           <GalleryItem url="photos/DSC01017.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
           <GalleryItem url="photos/DSC02321.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
@@ -81,7 +85,9 @@ export default function Gallery() {
           <GalleryItem url="photos/DSC00872.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
           <GalleryItem url="photos/DSC00941.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
           <GalleryItem url="photos/DSC00947.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
-          
+          <GalleryItem url="photos/DSC01613.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
+          <GalleryItem url="photos/DSC02685-Enhanced-NR-2.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
+          <GalleryItem url="photos/DSC02241.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
           
         </div>
       </main>
