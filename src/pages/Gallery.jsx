@@ -59,6 +59,8 @@ export default function Gallery() {
             </li>
           </ul>
         </nav>
+        <img src=".\public\photos\DSC00230.jpg"></img>
+        <img src="..\public\photos\DSC00230.jpg"></img>
         <div className="gallery-grid">
           <div
             onClick={() => {
