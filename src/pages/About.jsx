@@ -57,7 +57,7 @@ export default function About() {
           </ul>
         </nav>
         <div className="gallery-grid">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet officiis quia aut, architecto iure ea corrupti possimus quos expedita, dicta mollitia laboriosam libero cupiditate consequuntur laborum. Quas voluptatem enim repellendus!</p>
+            <p>A 23 year old amateur photographer from Wakefield, West Yorkshire.</p>
         </div>
       </main>
     </>

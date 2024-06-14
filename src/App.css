@@ -169,7 +169,7 @@ textarea:not([rows]) {
   display: grid;
   gap: 0.5em;
   grid-template-columns: repeat(4, 1fr);
-  /* max-width: 1000px; */
+  min-width: 75%;
 }
 
 .gallery-grid > div:hover {

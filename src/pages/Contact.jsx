@@ -55,10 +55,10 @@ export default function Contact() {
       </li>
     </ul>
   </nav>
-  <div className="gallery-grid">
-      <p>Oliver_shipley@yahoo.co.uk</p>
-  </div>
-</main>
-</>
+      <div className="gallery-grid">
+          <p>Oliver_shipley@yahoo.co.uk</p>
+      </div>
+    </main>
+  </>
   )
 }

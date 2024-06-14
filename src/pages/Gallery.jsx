@@ -62,9 +62,10 @@ export default function Gallery() {
         </nav>
         <div className="gallery-grid">
           <GalleryItem url="photos/DSC01108.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
-          <GalleryItem url="photos/DSC00861.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
+          <GalleryItem url="photos/DSC03997.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
           <GalleryItem url="photos/DSC00894.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
-          <GalleryItem url="photos/DSC01231.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
+          <GalleryItem url="photos/DSC03509.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
+          
           <GalleryItem url="photos/DSC00808.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
           <GalleryItem url="photos/DSC01732.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
           <GalleryItem url="photos/DSC02628.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
@@ -83,12 +84,18 @@ export default function Gallery() {
           <GalleryItem url="photos/DSC00230.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
           <GalleryItem url="photos/DSC01102.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
           <GalleryItem url="photos/DSC00872.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
+          <GalleryItem url="photos/DSC03704.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
           <GalleryItem url="photos/DSC00941.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
           <GalleryItem url="photos/DSC00947.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
           <GalleryItem url="photos/DSC01613.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
-          <GalleryItem url="photos/DSC02685-Enhanced-NR-2.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
+          <GalleryItem url="photos/DSC03810.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
+          <GalleryItem url="photos/DSC03814.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
           <GalleryItem url="photos/DSC02241.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
-          
+          <GalleryItem url="photos/DSC03834.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
+          <GalleryItem url="photos/DSC03724.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
+          <GalleryItem url="photos/DSC00861.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
+          <GalleryItem url="photos/DSC01231.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
+          <GalleryItem url="photos/DSC03115.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
         </div>
       </main>
     </>
