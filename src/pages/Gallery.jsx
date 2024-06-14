@@ -60,7 +60,7 @@ export default function Gallery() {
             </li>
           </ul>
         </nav>
-        <div className="gallery-grid">
+                <div className="gallery-grid">
           <GalleryItem url="photos/DSC01108.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
           <GalleryItem url="photos/DSC03997.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
           <GalleryItem url="photos/DSC00894.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
