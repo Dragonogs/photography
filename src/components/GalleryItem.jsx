@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import { Blurhash } from "react-blurhash";
 
 export default function GalleryItem({ url, setImgUrl, setIsModalOpen }) {
   const [dimensions, setDimensions] = useState({ width: 0, height: 0 });
