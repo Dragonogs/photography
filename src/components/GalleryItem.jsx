@@ -1,36 +1,40 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState } from "react";
+import { Blurhash } from "react-blurhash";
 
-export default function GalleryItem({url, setImgUrl, setIsModalOpen, large}) {
+export default function GalleryItem({ url, setImgUrl, setIsModalOpen }) {
+  const [dimensions, setDimensions] = useState({ width: 0, height: 0 });
 
-    const [dimensions, setDimensions] = useState({ width: 0, height: 0 });
+  const [isPortrait, setIsPortrait] = useState(false);
 
-    const handleImageLoad = (e) => {
-        setDimensions({
-          width: e.target.naturalWidth,
-          height: e.target.naturalHeight
-        });
-       };
+  const handleImageLoad = (e) => {
+    setDimensions({
+      width: e.target.naturalWidth,
+      height: e.target.naturalHeight,
+    });
+  };
 
-    const [isPortrait, setIsPortrait] = useState(false);
-
-    useEffect(() => {
-        if (dimensions.height > dimensions.width) {
-          setIsPortrait(true);
-        } else {
-          setIsPortrait(false);
-        }
-       }, [dimensions]);
+  useEffect(() => {
+    if (dimensions.height > dimensions.width) {
+      setIsPortrait(true);
+    } else {
+      setIsPortrait(false);
+    }
+  }, [dimensions]);
 
   return (
     <div
-            onClick={() => {
-              setImgUrl(`${url}`);
-              setIsModalOpen(true);
-            }}
-            
-            className={isPortrait ? "gallery-item" : "gallery-item-large"}
-          >
-            <img className="gallery-image" src={url} onLoad={handleImageLoad}></img>
-          </div>
-  )
+      onClick={() => {
+        setImgUrl(`${url}`);
+        setIsModalOpen(true);
+      }}
+      className={isPortrait ? "gallery-item" : "gallery-item-large"}
+    >
+      <img
+        loading="lazy"
+        className="gallery-image"
+        src={url}
+        onLoad={handleImageLoad}
+      ></img>
+    </div>
+  );
 }

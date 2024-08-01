@@ -1,40 +1,60 @@
-import React from 'react'
+import React from "react";
 import { useState } from "react";
 import Modal from "../components/Modal";
-import GalleryItem from '../components/GalleryItem';
+import GalleryItem from "../components/GalleryItem";
 
 export default function Gallery() {
-    const [isModalOpen, setIsModalOpen] = useState(false);
-    const [imgUrl, setImgUrl] = useState(null);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [imgUrl, setImgUrl] = useState(null);
 
-    const [toggleMenu, setToggleMenu] = useState(true);
+  const [toggleMenu, setToggleMenu] = useState(true);
 
   return (
     <>
-      <Modal className="modal" isModalOpen={isModalOpen} setIsModalOpen={setIsModalOpen} imgUrl={imgUrl} />
+      <Modal
+        className="modal"
+        isModalOpen={isModalOpen}
+        setIsModalOpen={setIsModalOpen}
+        imgUrl={imgUrl}
+      />
       <div className="header">
         <nav className="top-nav">
-          <a href="https://dragonogs.github.io/photography/" className="nav-brand">
+          <a
+            href="https://dragonogs.github.io/photography/"
+            className="nav-brand"
+          >
             <span>Oliver </span>
             <span>Shipley.</span>
           </a>
-          <button onClick={()=>setToggleMenu(prev=>!prev)} className="dropdown-btn">
+          <button
+            onClick={() => setToggleMenu((prev) => !prev)}
+            className="dropdown-btn"
+          >
             <i className="fa-solid fa-bars"></i>
           </button>
         </nav>
-        <ul className="dropdown-menu" style={{display: toggleMenu && "none"}}>
+        <ul className="dropdown-menu" style={{ display: toggleMenu && "none" }}>
           <li>
-            <a href="https://dragonogs.github.io/photography/" className="nav-link-active">
+            <a
+              href="https://dragonogs.github.io/photography/"
+              className="nav-link-active"
+            >
               Gallery
             </a>
           </li>
           <li>
-            <a href="https://dragonogs.github.io/photography/about" className="nav-link">
+            <a
+              href="https://dragonogs.github.io/photography/about"
+              className="nav-link"
+            >
               About
             </a>
           </li>
           <li>
-            <a href="https://dragonogs.github.io/photography/contact" className="nav-link">
+            <a
+              href="https://dragonogs.github.io/photography/contact"
+              className="nav-link"
+            >
               Contact
             </a>
           </li>
@@ -44,58 +64,202 @@ export default function Gallery() {
         <nav className="main-nav">
           <ul className="nav-menu">
             <li>
-              <a href="https://dragonogs.github.io/photography/" className="nav-link-active">
+              <a
+                href="https://dragonogs.github.io/photography/"
+                className="nav-link-active"
+              >
                 Gallery
               </a>
             </li>
             <li>
-              <a href="https://dragonogs.github.io/photography/about" className="nav-link">
+              <a
+                href="https://dragonogs.github.io/photography/about"
+                className="nav-link"
+              >
                 About
               </a>
             </li>
             <li>
-              <a href="https://dragonogs.github.io/photography/contact" className="nav-link">
+              <a
+                href="https://dragonogs.github.io/photography/contact"
+                className="nav-link"
+              >
                 Contact
               </a>
             </li>
           </ul>
         </nav>
-                <div className="gallery-grid">
-          <GalleryItem url="photos/DSC01108.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
-          <GalleryItem url="photos/DSC03997.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
-          <GalleryItem url="photos/DSC00894.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
-          <GalleryItem url="photos/DSC03509.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
-          
-          <GalleryItem url="photos/DSC00808.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
-          <GalleryItem url="photos/DSC01732.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
-          <GalleryItem url="photos/DSC02628.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
-          <GalleryItem url="photos/DSC02483.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
-          <GalleryItem url="photos/DSC00592-Enhanced-NR.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
-          <GalleryItem url="photos/DSC02544.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
-          <GalleryItem url="photos/DSC02643.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
-          <GalleryItem url="photos/DSC02523.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
-          <GalleryItem url="photos/DSC01134.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
-          <GalleryItem url="photos/DSC00936.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
-          <GalleryItem url="photos/DSC01017.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
-          <GalleryItem url="photos/DSC02321.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
-          <GalleryItem url="photos/DSC02601-Enhanced-NR-2.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
-          <GalleryItem url="photos/DSC01005.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
-          <GalleryItem url="photos/DSC00994.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
-          <GalleryItem url="photos/DSC00230.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
-          <GalleryItem url="photos/DSC01102.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
-          <GalleryItem url="photos/DSC00872.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
-          <GalleryItem url="photos/DSC03704.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
-          <GalleryItem url="photos/DSC00941.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
-          <GalleryItem url="photos/DSC00947.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
-          <GalleryItem url="photos/DSC01613.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
-          <GalleryItem url="photos/DSC03810.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
-          <GalleryItem url="photos/DSC03814.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
-          <GalleryItem url="photos/DSC02241.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
-          <GalleryItem url="photos/DSC03834.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
-          <GalleryItem url="photos/DSC03724.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
-          <GalleryItem url="photos/DSC00861.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
-          <GalleryItem url="photos/DSC01231.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
-          <GalleryItem url="photos/DSC03115.jpg" setImgUrl={setImgUrl} setIsModalOpen={setIsModalOpen}/>
+        <div className="gallery-grid">
+          <GalleryItem
+            url="photos/DSC01108.webp"
+            setImgUrl={setImgUrl}
+            setIsModalOpen={setIsModalOpen}
+          />
+          <GalleryItem
+            url="photos/DSC03997.webp"
+            setImgUrl={setImgUrl}
+            setIsModalOpen={setIsModalOpen}
+          />
+          <GalleryItem
+            url="photos/DSC00894.webp"
+            setImgUrl={setImgUrl}
+            setIsModalOpen={setIsModalOpen}
+          />
+          <GalleryItem
+            url="photos/DSC03509.webp"
+            setImgUrl={setImgUrl}
+            setIsModalOpen={setIsModalOpen}
+          />
+          <GalleryItem
+            url="photos/DSC00808.webp"
+            setImgUrl={setImgUrl}
+            setIsModalOpen={setIsModalOpen}
+          />
+          <GalleryItem
+            url="photos/DSC01732.webp"
+            setImgUrl={setImgUrl}
+            setIsModalOpen={setIsModalOpen}
+          />
+          <GalleryItem
+            url="photos/DSC02628.webp"
+            setImgUrl={setImgUrl}
+            setIsModalOpen={setIsModalOpen}
+          />
+          <GalleryItem
+            url="photos/DSC02483.webp"
+            setImgUrl={setImgUrl}
+            setIsModalOpen={setIsModalOpen}
+          />
+          <GalleryItem
+            url="photos/DSC00592-Enhanced-NR.webp"
+            setImgUrl={setImgUrl}
+            setIsModalOpen={setIsModalOpen}
+          />
+          <GalleryItem
+            url="photos/DSC02544.webp"
+            setImgUrl={setImgUrl}
+            setIsModalOpen={setIsModalOpen}
+          />
+          <GalleryItem
+            url="photos/DSC02643.webp"
+            setImgUrl={setImgUrl}
+            setIsModalOpen={setIsModalOpen}
+          />
+          <GalleryItem
+            url="photos/DSC02523.webp"
+            setImgUrl={setImgUrl}
+            setIsModalOpen={setIsModalOpen}
+          />
+          <GalleryItem
+            url="photos/DSC01134.webp"
+            setImgUrl={setImgUrl}
+            setIsModalOpen={setIsModalOpen}
+          />
+          <GalleryItem
+            url="photos/DSC00936.webp"
+            setImgUrl={setImgUrl}
+            setIsModalOpen={setIsModalOpen}
+          />
+          <GalleryItem
+            url="photos/DSC01017.webp"
+            setImgUrl={setImgUrl}
+            setIsModalOpen={setIsModalOpen}
+          />
+          <GalleryItem
+            url="photos/DSC02321.webp"
+            setImgUrl={setImgUrl}
+            setIsModalOpen={setIsModalOpen}
+          />
+          <GalleryItem
+            url="photos/DSC02601-Enhanced-NR-2.webp"
+            setImgUrl={setImgUrl}
+            setIsModalOpen={setIsModalOpen}
+          />
+          <GalleryItem
+            url="photos/DSC01005.webp"
+            setImgUrl={setImgUrl}
+            setIsModalOpen={setIsModalOpen}
+          />
+          <GalleryItem
+            url="photos/DSC00994.webp"
+            setImgUrl={setImgUrl}
+            setIsModalOpen={setIsModalOpen}
+          />
+          <GalleryItem
+            url="photos/DSC00230.webp"
+            setImgUrl={setImgUrl}
+            setIsModalOpen={setIsModalOpen}
+          />
+          <GalleryItem
+            url="photos/DSC01102.webp"
+            setImgUrl={setImgUrl}
+            setIsModalOpen={setIsModalOpen}
+          />
+          <GalleryItem
+            url="photos/DSC00872.webp"
+            setImgUrl={setImgUrl}
+            setIsModalOpen={setIsModalOpen}
+          />
+          <GalleryItem
+            url="photos/DSC03704.webp"
+            setImgUrl={setImgUrl}
+            setIsModalOpen={setIsModalOpen}
+          />
+          <GalleryItem
+            url="photos/DSC00941.webp"
+            setImgUrl={setImgUrl}
+            setIsModalOpen={setIsModalOpen}
+          />
+          <GalleryItem
+            url="photos/DSC00947.webp"
+            setImgUrl={setImgUrl}
+            setIsModalOpen={setIsModalOpen}
+          />
+          <GalleryItem
+            url="photos/DSC01613.webp"
+            setImgUrl={setImgUrl}
+            setIsModalOpen={setIsModalOpen}
+          />
+          <GalleryItem
+            url="photos/DSC03810.webp"
+            setImgUrl={setImgUrl}
+            setIsModalOpen={setIsModalOpen}
+          />
+          <GalleryItem
+            url="photos/DSC03814.webp"
+            setImgUrl={setImgUrl}
+            setIsModalOpen={setIsModalOpen}
+          />
+          <GalleryItem
+            url="photos/DSC02241.webp"
+            setImgUrl={setImgUrl}
+            setIsModalOpen={setIsModalOpen}
+          />
+          <GalleryItem
+            url="photos/DSC03834.webp"
+            setImgUrl={setImgUrl}
+            setIsModalOpen={setIsModalOpen}
+          />
+          <GalleryItem
+            url="photos/DSC03724.webp"
+            setImgUrl={setImgUrl}
+            setIsModalOpen={setIsModalOpen}
+          />
+          <GalleryItem
+            url="photos/DSC00861.webp"
+            setImgUrl={setImgUrl}
+            setIsModalOpen={setIsModalOpen}
+          />
+          <GalleryItem
+            url="photos/DSC01231.webp"
+            setImgUrl={setImgUrl}
+            setIsModalOpen={setIsModalOpen}
+          />
+          <GalleryItem
+            url="photos/DSC03115.webp"
+            setImgUrl={setImgUrl}
+            setIsModalOpen={setIsModalOpen}
+          />
         </div>
       </main>
     </>
