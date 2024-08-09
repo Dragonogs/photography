@@ -1,9 +1,31 @@
+/**
+* @license
+*
+* Font Family: Stardom
+* Designed by: Indian Type Foundry
+* URL: https://www.fontshare.com/fonts/stardom
+* © 2024 Indian Type Foundry
+*
+* Stardom Regular 
+
+*
+*/
+@font-face {
+  font-family: "Stardom-Regular";
+  src: url("../fonts/Stardom-Regular.woff2") format("woff2"),
+    url("../fonts/Stardom-Regular.woff") format("woff"),
+    url("../fonts/Stardom-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+
 /* Box sizing rules */
 *,
 *::before,
 *::after {
   box-sizing: border-box;
-  transition: all 0.2s
+  transition: all 0.2s;
 }
 
 /* Prevent font size inflation */
@@ -15,8 +37,16 @@ html {
 }
 
 /* Remove default margin in favour of better control in authored CSS */
-body, h1, h2, h3, h4, p,
-figure, blockquote, dl, dd {
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
   margin-block-end: 0;
 }
 
@@ -37,14 +67,21 @@ body {
 }
 
 /* Set shorter line heights on headings and interactive elements */
-h1, h2, h3, h4,
-button, input, label {
+h1,
+h2,
+h3,
+h4,
+button,
+input,
+label {
   line-height: 1.1;
 }
 
 /* Balance text wrapping on headings */
-h1, h2,
-h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   text-wrap: balance;
 }
 
@@ -62,8 +99,10 @@ picture {
 }
 
 /* Inherit fonts for inputs and buttons */
-input, button,
-textarea, select {
+input,
+button,
+textarea,
+select {
   font: inherit;
 }
 
@@ -78,6 +117,10 @@ textarea:not([rows]) {
 }
 
 /* MY STYLES */
+
+.serif {
+  font-family: "Stardom-Regular";
+}
 
 .header {
   margin: 0.5em;
@@ -94,7 +137,7 @@ textarea:not([rows]) {
   justify-content: center;
   align-items: center;
   z-index: 1000;
- }
+}
 
 .modal:hover {
   cursor: pointer;
@@ -120,8 +163,8 @@ textarea:not([rows]) {
 .top-nav {
   display: flex;
   padding-bottom: 0.5em;
- align-items: center;
- border-bottom: black 1px solid;
+  align-items: center;
+  border-bottom: black 1px solid;
 }
 
 .dropdown-menu {
@@ -138,12 +181,12 @@ textarea:not([rows]) {
   height: 1.5em;
 }
 
-.dropdown-btn:hover{
+.dropdown-btn:hover {
   cursor: pointer;
   color: rgb(150, 150, 150);
 }
 
-.nav-link{
+.nav-link {
   color: rgb(150, 150, 150);
   text-decoration: none;
 }
@@ -159,13 +202,13 @@ textarea:not([rows]) {
   color: black;
 }
 
-.main-content{
+.main-content {
   display: flex;
   justify-content: end;
   margin-inline: 0.5em;
 }
 
-.gallery-grid{
+.gallery-grid {
   display: grid;
   gap: 0.5em;
   grid-template-columns: repeat(4, 1fr);
@@ -183,7 +226,7 @@ textarea:not([rows]) {
   object-fit: cover;
 }
 
-.gallery-item-large{
+.gallery-item-large {
   grid-column: span 2;
 }
 
@@ -198,12 +241,11 @@ textarea:not([rows]) {
     transform: scale(1.01);
     cursor: pointer;
   }
- }
-
+}
 
 @media only screen and (min-width: 800px) {
   .dropdown-menu,
-  .dropdown-btn{
+  .dropdown-btn {
     display: none;
   }
 
@@ -218,19 +260,19 @@ textarea:not([rows]) {
     top: 0;
   }
 
-  .nav-link-active{
-    font-size: 64px;
+  .nav-link-active {
+    font-size: 86px;
   }
 
   .nav-link {
     font-size: 48px;
   }
 
-  .nav-link:hover{
-    font-size: 64px;
+  .nav-link:hover {
+    font-size: 86px;
   }
 
-  .top-nav{
+  .top-nav {
     margin-bottom: 0.5em;
   }
 
@@ -239,8 +281,7 @@ textarea:not([rows]) {
     cursor: pointer;
   }
 
-  .nav-menu > li{
+  .nav-menu > li {
     line-height: 1.3;
   }
-  
 }

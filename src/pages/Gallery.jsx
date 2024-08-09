@@ -66,7 +66,7 @@ export default function Gallery() {
             <li>
               <a
                 href="https://dragonogs.github.io/photography/"
-                className="nav-link-active"
+                className="nav-link-active serif"
               >
                 Gallery
               </a>
@@ -74,7 +74,7 @@ export default function Gallery() {
             <li>
               <a
                 href="https://dragonogs.github.io/photography/about"
-                className="nav-link"
+                className="nav-link serif"
               >
                 About
               </a>
@@ -82,7 +82,7 @@ export default function Gallery() {
             <li>
               <a
                 href="https://dragonogs.github.io/photography/contact"
-                className="nav-link"
+                className="nav-link serif"
               >
                 Contact
               </a>
