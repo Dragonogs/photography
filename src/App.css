@@ -261,7 +261,7 @@ textarea:not([rows]) {
   }
 
   .nav-link-active {
-    font-size: 86px;
+    font-size: 64px;
   }
 
   .nav-link {
@@ -269,7 +269,7 @@ textarea:not([rows]) {
   }
 
   .nav-link:hover {
-    font-size: 86px;
+    font-size: 64px;
   }
 
   .top-nav {
