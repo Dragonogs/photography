@@ -170,7 +170,7 @@ textarea:not([rows]) {
 .dropdown-menu {
   font-family: sans-serif;
   padding-bottom: 0.5em;
-  /* display: none; */
+  display: none;
 }
 
 .dropdown-btn {
