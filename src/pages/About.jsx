@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 
 export default function About() {
-  const [toggleMenu, setToggleMenu] = useState(false);
+  const [toggleMenu, setToggleMenu] = useState(true);
 
   return (
     <>
