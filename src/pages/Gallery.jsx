@@ -104,6 +104,36 @@ export default function Gallery() {
             setIsModalOpen={setIsModalOpen}
           />
           <GalleryItem
+            url="photos/DSC04322.webp"
+            setImgUrl={setImgUrl}
+            setIsModalOpen={setIsModalOpen}
+          />
+          <GalleryItem
+            url="photos/DSC04365.webp"
+            setImgUrl={setImgUrl}
+            setIsModalOpen={setIsModalOpen}
+          />
+          <GalleryItem
+            url="photos/DSC04960.webp"
+            setImgUrl={setImgUrl}
+            setIsModalOpen={setIsModalOpen}
+          />
+          <GalleryItem
+            url="photos/DSCF7201.webp"
+            setImgUrl={setImgUrl}
+            setIsModalOpen={setIsModalOpen}
+          />
+          <GalleryItem
+            url="photos/DSC05082.webp"
+            setImgUrl={setImgUrl}
+            setIsModalOpen={setIsModalOpen}
+          />
+          <GalleryItem
+            url="photos/DSC04354.webp"
+            setImgUrl={setImgUrl}
+            setIsModalOpen={setIsModalOpen}
+          />
+          <GalleryItem
             url="photos/DSC00894.webp"
             setImgUrl={setImgUrl}
             setIsModalOpen={setIsModalOpen}
