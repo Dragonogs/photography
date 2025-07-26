@@ -94,15 +94,53 @@ export default function Gallery() {
         </nav>
         <div className="gallery-grid">
           <GalleryItem
+            url="photos/DSC05930-Enhanced-NR.webp"
+            setImgUrl={setImgUrl}
+            setIsModalOpen={setIsModalOpen}
+          />
+          <GalleryItem
             url="photos/DSC01108.webp"
             setImgUrl={setImgUrl}
             setIsModalOpen={setIsModalOpen}
           />
           <GalleryItem
+            url="photos/DSC04960.webp"
+            setImgUrl={setImgUrl}
+            setIsModalOpen={setIsModalOpen}
+          />
+
+          <GalleryItem
+            url="photos/DSC05942.webp"
+            setImgUrl={setImgUrl}
+            setIsModalOpen={setIsModalOpen}
+          />
+
+          <GalleryItem
             url="photos/DSC03997.webp"
             setImgUrl={setImgUrl}
             setIsModalOpen={setIsModalOpen}
           />
+          <GalleryItem
+            url="photos/DSC06176.webp"
+            setImgUrl={setImgUrl}
+            setIsModalOpen={setIsModalOpen}
+          />
+          <GalleryItem
+            url="photos/DSC04354.webp"
+            setImgUrl={setImgUrl}
+            setIsModalOpen={setIsModalOpen}
+          />
+          <GalleryItem
+            url="photos/DSC06324.webp"
+            setImgUrl={setImgUrl}
+            setIsModalOpen={setIsModalOpen}
+          />
+          <GalleryItem
+            url="photos/DSC05082.webp"
+            setImgUrl={setImgUrl}
+            setIsModalOpen={setIsModalOpen}
+          />
+
           <GalleryItem
             url="photos/DSC04322.webp"
             setImgUrl={setImgUrl}
@@ -114,7 +152,7 @@ export default function Gallery() {
             setIsModalOpen={setIsModalOpen}
           />
           <GalleryItem
-            url="photos/DSC04960.webp"
+            url="photos/DSC06023.webp "
             setImgUrl={setImgUrl}
             setIsModalOpen={setIsModalOpen}
           />
@@ -124,15 +162,11 @@ export default function Gallery() {
             setIsModalOpen={setIsModalOpen}
           />
           <GalleryItem
-            url="photos/DSC05082.webp"
+            url="photos/DSC06067.webp"
             setImgUrl={setImgUrl}
             setIsModalOpen={setIsModalOpen}
           />
-          <GalleryItem
-            url="photos/DSC04354.webp"
-            setImgUrl={setImgUrl}
-            setIsModalOpen={setIsModalOpen}
-          />
+
           <GalleryItem
             url="photos/DSC00894.webp"
             setImgUrl={setImgUrl}
@@ -143,8 +177,9 @@ export default function Gallery() {
             setImgUrl={setImgUrl}
             setIsModalOpen={setIsModalOpen}
           />
+
           <GalleryItem
-            url="photos/DSC00808.webp"
+            url="photos/DSC04945.webp"
             setImgUrl={setImgUrl}
             setIsModalOpen={setIsModalOpen}
           />
@@ -203,8 +238,9 @@ export default function Gallery() {
             setImgUrl={setImgUrl}
             setIsModalOpen={setIsModalOpen}
           />
+
           <GalleryItem
-            url="photos/DSC02601-Enhanced-NR-2.webp"
+            url="photos/DSC00808.webp"
             setImgUrl={setImgUrl}
             setIsModalOpen={setIsModalOpen}
           />
