@@ -189,6 +189,55 @@ export default function Gallery() {
             setIsModalOpen={setIsModalOpen}
           />
           <GalleryItem
+            url="photos/DSC07619.webp"
+            setImgUrl={setImgUrl}
+            setIsModalOpen={setIsModalOpen}
+          />
+          <GalleryItem
+            url="photos/image0.webp"
+            setImgUrl={setImgUrl}
+            setIsModalOpen={setIsModalOpen}
+          />
+          <GalleryItem
+            url="photos/DSC07688.webp"
+            setImgUrl={setImgUrl}
+            setIsModalOpen={setIsModalOpen}
+          />
+
+          <GalleryItem
+            url="photos/DSC07153.webp"
+            setImgUrl={setImgUrl}
+            setIsModalOpen={setIsModalOpen}
+          />
+
+          <GalleryItem
+            url="photos/DSC07358.webp"
+            setImgUrl={setImgUrl}
+            setIsModalOpen={setIsModalOpen}
+          />
+          <GalleryItem
+            url="photos/DSC07705.webp"
+            setImgUrl={setImgUrl}
+            setIsModalOpen={setIsModalOpen}
+          />
+
+          <GalleryItem
+            url="photos/DSC07906.webp"
+            setImgUrl={setImgUrl}
+            setIsModalOpen={setIsModalOpen}
+          />
+          <GalleryItem
+            url="photos/DSC08050.webp"
+            setImgUrl={setImgUrl}
+            setIsModalOpen={setIsModalOpen}
+          />
+          <GalleryItem
+            url="photos/DSC08140.webp"
+            setImgUrl={setImgUrl}
+            setIsModalOpen={setIsModalOpen}
+          />
+
+          <GalleryItem
             url="photos/DSC02628.webp"
             setImgUrl={setImgUrl}
             setIsModalOpen={setIsModalOpen}
